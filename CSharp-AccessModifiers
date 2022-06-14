@@ -1,0 +1,13 @@
+//public
+//private
+//protected
+//internal
+//protected internal
+//private protected
+
+Car myObj=new Car();
+Console.WriteLine(myObj.model);
+class Car
+{
+     string model = "Mustang";
+}
