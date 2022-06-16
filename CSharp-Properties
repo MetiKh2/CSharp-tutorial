@@ -1,0 +1,11 @@
+Person person = new Person();
+person.Name = "Liam";
+Console.WriteLine(person.Name);
+
+
+class Person
+{
+    private string name; // field
+
+    public string Name { set; get; }// property
+}
